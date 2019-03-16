@@ -23,7 +23,7 @@ def  user_location(intra)
   begin
     res = $token.get("/v2/users/#{intra}/locations")
     while res.status != 200
-      puts "API is not responding"
+      puts "\e[31;1mAPI is not responding\e[0m"
       sleep(3)
       if res.status == 200
         break

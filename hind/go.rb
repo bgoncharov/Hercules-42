@@ -30,8 +30,8 @@ def  user_location(intra)
       end
     end
     if !res.parsed[0]["end_at"]
-      puts "\e[32;1m" + intra + " (online)\e[0m " "--> " + \
-            "\e[32m" + (res.parsed[0]["host"] + "\e[0m")
+      puts "\e[32;1m" + intra + " (online)" " --> " + \
+            (res.parsed[0]["host"] + "\e[0m")
     else
       puts intra + " \e[31;1m(offline)\e[0m " + \
             "--> previous login: " + res.parsed[0]["host"]

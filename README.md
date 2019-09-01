@@ -2,7 +2,7 @@
 ![Hercules-42](https://github.com/bgoncharov/Hercules-42/blob/master/Hercules.jpg)
 During 12 weeks, try to walk among the half-gods by doing the infamous twelve labors of Hercules
 
-1. 
+1. This project aims to give you a brief overlook on Virtual Machines and ssh configurations and connections.
 2.
 3.
 4.
